@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerInfo}>
             <h3 className={styles.footerTitle}>EL-BETHEL GLOBAL CITY</h3>
-            <p className={styles.footerMotto}>"The latter Glory shall be greater than the former" - Haggai 2:9</p>
+            <p className={styles.footerMotto}>&ldquo;The latter Glory shall be greater than the former&rdquo; - Haggai 2:9</p>
           </div>
           
           <div className={styles.footerLinks}>

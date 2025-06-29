@@ -17,7 +17,7 @@ const Header = () => {
             />
             <div className={styles.logoText}>
               <h1 className={styles.churchName}>EL-BETHEL GLOBAL CITY</h1>
-              <p className={styles.motto}>"The latter Glory shall be greater than the former"</p>
+              <p className={styles.motto}>&ldquo;The latter Glory shall be greater than the former&rdquo;</p>
             </div>
           </Link>
           

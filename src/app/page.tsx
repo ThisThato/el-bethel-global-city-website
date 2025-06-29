@@ -40,14 +40,14 @@ export default function Home() {
             <h2>Welcome to Our Community</h2>
             <p>
               EL-BETHEL GLOBAL CITY is a vibrant community of believers united by our shared faith 
-              and commitment to experiencing God's transforming presence. We are dedicated to 
+              and commitment to experiencing God&rsquo;s transforming presence. We are dedicated to 
               creating an environment where individuals can grow spiritually, build meaningful 
-              relationships, and discover their purpose in God's kingdom.
+              relationships, and discover their purpose in God&rsquo;s kingdom.
             </p>
             <p>
               Our community is built on the foundation of biblical truth and guided by the 
-              principle that "The latter Glory shall be greater than the former" as declared 
-              in Haggai 2:9. We believe that God's best is yet to come for His people and our world.
+              principle that &ldquo;The latter Glory shall be greater than the former&rdquo; as declared 
+              in Haggai 2:9. We believe that God&rsquo;s best is yet to come for His people and our world.
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function About() {
         <div className="container">
           <h1>About EL-BETHEL GLOBAL CITY</h1>
           <p className={styles.subtitle}>
-            "The latter Glory shall be greater than the former" - Haggai 2:9
+            &ldquo;The latter Glory shall be greater than the former&rdquo; - Haggai 2:9
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function About() {
                 experience the transforming presence of God, grow in spiritual maturity, 
                 and participate in His kingdom work both locally and globally. We are 
                 committed to fostering an environment where every individual can discover 
-                their divine purpose and walk in the fullness of God's calling on their lives.
+                their divine purpose and walk in the fullness of God&rsquo;s calling on their lives.
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ export default function About() {
                 is extended to all nations.
               </p>
               <p>
-                We see a future where "the latter glory shall be greater than the former," 
-                believing that God's best is yet to come for His people and through His church.
+                We see a future where &ldquo;the latter glory shall be greater than the former,&rdquo; 
+                believing that God&rsquo;s best is yet to come for His people and through His church.
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function About() {
                 and to demonstrate the kingdom of God through love, service, and supernatural ministry.
               </p>
               <ul>
-                <li>To create an atmosphere where God's presence is experienced and His glory is manifested</li>
+                <li>To create an atmosphere where God&rsquo;s presence is experienced and His glory is manifested</li>
                 <li>To provide biblical teaching and discipleship that produces mature believers</li>
                 <li>To equip saints for the work of ministry and marketplace influence</li>
                 <li>To reach the lost and bring healing to the broken</li>
@@ -77,7 +77,7 @@ export default function About() {
               </div>
               <div className={styles.valueCard}>
                 <h3>Biblical Truth</h3>
-                <p>We are committed to the absolute truth and authority of God's Word as our foundation.</p>
+                <p>We are committed to the absolute truth and authority of God&rsquo;s Word as our foundation.</p>
               </div>
               <div className={styles.valueCard}>
                 <h3>Spirit-Led Living</h3>
@@ -108,7 +108,7 @@ export default function About() {
                   Our spiritual government is founded on biblical principles with Christ as 
                   the head of the church. We recognize the five-fold ministry gifts and the 
                   importance of apostolic and prophetic foundations in establishing and 
-                  maintaining God's order in the church.
+                  maintaining God&rsquo;s order in the church.
                 </p>
                 <p>
                   Leadership operates under divine authority with accountability, transparency, 

@@ -12,10 +12,10 @@ const HeroSection = () => {
               Welcome to <span className={styles.highlight}>EL-BETHEL GLOBAL CITY</span>
             </h1>
             <p className={styles.heroMotto}>
-              "The latter Glory shall be greater than the former" - Haggai 2:9
+              &ldquo;The latter Glory shall be greater than the former&rdquo; - Haggai 2:9
             </p>
             <p className={styles.heroDescription}>
-              A community where believers gather to experience God's presence, grow in faith, 
+              A community where believers gather to experience God&rsquo;s presence, grow in faith, 
               and witness His transforming power in our lives and the world around us.
             </p>
             <div className={styles.heroButtons}>

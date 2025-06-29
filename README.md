@@ -45,18 +45,20 @@ public/
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ThisThato/el-bethel-global-city-website.git
    cd el-bethel-global-city-website
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -64,6 +66,7 @@ public/
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
    # or
@@ -84,12 +87,14 @@ public/
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Deep Blue (`#1a365d`)
 - **Secondary**: Medium Blue (`#2d5a87`)
 - **Accent**: Light Blue-Gray (`#e2e8f0`)
 - **Gold**: Spiritual Accent (`#d69e2e`)
 
 ### Typography
+
 - **Primary Font**: Georgia (Serif) - For headings
 - **Secondary Font**: Arial (Sans-serif) - For body text
 
@@ -143,4 +148,4 @@ For technical support or questions about this website, please contact the develo
 
 ---
 
-**EL-BETHEL GLOBAL CITY** - *Where the glory of God is manifested and His people gather for worship, fellowship, and spiritual growth.*
+**EL-BETHEL GLOBAL CITY** - _Where the glory of God is manifested and His people gather for worship, fellowship, and spiritual growth._

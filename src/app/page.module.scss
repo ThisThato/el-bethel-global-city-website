@@ -1,0 +1,125 @@
+.page {
+  min-height: 100vh;
+}
+
+.quickLinks {
+  padding: var(--spacing-2xl) 0;
+  background: var(--white);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xl);
+}
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.linkCard {
+  background: var(--white);
+  border: 2px solid var(--accent-color);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-sm);
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--secondary-color);
+    
+    h3 {
+      color: var(--secondary-color);
+    }
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+    transition: color 0.3s ease;
+  }
+  
+  p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+.introduction {
+  padding: var(--spacing-2xl) 0;
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--background) 100%);
+}
+
+.introContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  
+  h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-md);
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .linksGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  
+  .linkCard {
+    padding: var(--spacing-md);
+    
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .introContent {
+    h2 {
+      font-size: 1.75rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .introContent {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

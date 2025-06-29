@@ -1,0 +1,144 @@
+.header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  padding: var(--spacing-md) 0;
+  box-shadow: var(--shadow-lg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  text-decoration: none;
+  color: inherit;
+  
+  &:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+  }
+}
+
+.logoImage {
+  border-radius: 50%;
+  border: 3px solid var(--gold-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.logoText {
+  .churchName {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--white);
+  }
+  
+  .motto {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--gold-accent);
+    margin: 0;
+  }
+}
+
+.nav {
+  .navList {
+    display: flex;
+    list-style: none;
+    gap: var(--spacing-lg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLink {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-md);
+    transition: all 0.3s ease;
+    position: relative;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--gold-accent);
+      transform: translateY(-2px);
+    }
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background: var(--gold-accent);
+      transition: width 0.3s ease;
+    }
+    
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .logoText {
+    .churchName {
+      font-size: 1.25rem;
+    }
+    
+    .motto {
+      font-size: 0.8rem;
+    }
+  }
+  
+  .nav {
+    .navList {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .logoText {
+    .churchName {
+      font-size: 1.1rem;
+    }
+    
+    .motto {
+      font-size: 0.75rem;
+    }
+  }
+  
+  .nav {
+    .navList {
+      flex-direction: column;
+      gap: var(--spacing-xs);
+    }
+  }
+}
